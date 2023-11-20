@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="address.css">
+</head>
+<body>
+    <a href="profile.html" class="back">BACK</a>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Setting your Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Portgas D. Ace">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="email" id="email" name="email" placeholder="jimuel@example.com">
+            <label for="ccnum">Phone number</label>
+            <input type="tel" id="telephoneInput" name="cardnumber" placeholder="09*********"> 
+            <label for="adr"><i class="fa fa-address-card-o"></i> Street/Barangay</label>
+            <input type="text" id="adr" name="address" placeholder="Alak st. Lasing 1">
+            <label for="city"><i class="fa fa-institution"></i>Municipality/City</label>
+            <input type="text" id="city" name="city" placeholder="Sariaya">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">Province</label>
+                <input type="text" id="state" name="state" placeholder="Quezon">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip code</label>
+                <input type="text" id="zip" name="zip" placeholder="4311">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            
+            </div>
+          </div>
+        </div>
+     
+       <br><a href="Jerome.html" class="set" id="success">Set Address and Go to Shop</a>
+       
+       
+       <div class="overlay" id="modalOverlay">
+    <div class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p>Successfully Set!</p>
+      <button onclick="redirectToPage()">Go to Home</button>
+    </div>
+  </div>
+  
+        <script src="address.js"></script>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

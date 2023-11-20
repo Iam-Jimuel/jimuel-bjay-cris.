@@ -1,0 +1,30 @@
+body {
+     background-color: white;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+p {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.sleeve1 {
+    background-color: coral;
+    height: 250px;
+    width: 170px;
+}
+.sleeve2 {
+    background-color: coral;
+    height: 250px;
+    width: 170px;
+}
+.sleeve3 {
+    background-color: coral;
+    height: 250px;
+    width: 170px;
+}

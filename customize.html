@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jimuel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="customize.css">
+</head>
+<body>
+<a href="index.html" class="back">BACK</a>
+  <h1>Customize</h1>
+
+  <div>
+    <label for="colorSlider">Customize Color</label>
+    <input type="range" id="colorSlider" min="0" max="360" value="0" step="10" onchange="changeColor(this.value)">
+  </div>
+  <div class="container">
+  <img id="customizableImage1" class="customizableImage" src="c3-removebg-preview.png" alt="Customizable Image 1">
+  <img id="customizableImage2" class="customizableImage" src="c1-removebg-preview.png" alt="Customizable Image 2">
+  
+  <img id="customizableImage3" class="customizableImage" src="images_-_2023-11-09T131117.783-removebg-preview.png" alt="Customizable Image 2">
+  
+  <img id="customizableImage4" class="customizableImage" src="images_-_2023-11-09T131105.014-removebg-preview.png" alt="Customizable Image 2">
+  
+ <img id="customizableImage5" class="customizableImage" src="images_-_2023-11-09T131043.907-removebg-preview.png" alt="Customizable Image 2">
+ 
+ <img id="customizableImage6" class="customizableImage" src="hahah.png" alt="Customizable Image 2">
+ 
+ <img id="customizableImage7" class="customizableImage" src="images_-_2023-11-12T154006.864-removebg-preview.png" alt="Customizable Image 2">
+ 
+ <img id="customizableImage8" class="customizableImage" src="images_-_2023-11-12T154047.194-removebg-preview.png" alt="Customizable Image 2">
+</div>
+<a href="index.html" class="cart" id="success">Add to Cart<i class="fa-solid fa-bag-shopping"></i></a>
+  <div>
+    <div class="overlay" id="modalOverlay">
+    <div class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p>Successfully Added to Cart!</p>
+      <button onclick="redirectToPage()">Go to Home</button></div>
+    
+  </div>
+<script src="customize.js"></script>
+</body>
+</html>
